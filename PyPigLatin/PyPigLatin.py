@@ -21,5 +21,4 @@ for word in words:
         newWords.append(word[vowelPosition:] + consonants + "ay")
 
 output = " ".join(newWords)
-
 print(output)
